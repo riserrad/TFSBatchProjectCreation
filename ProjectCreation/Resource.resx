@@ -159,4 +159,10 @@
   <data name="MessageBox_TituloGenericoErro" xml:space="preserve">
     <value>Erro</value>
   </data>
+  <data name="FrmCriarTeamProject_InvalidSharepointSiteFlag" xml:space="preserve">
+    <value>Você não usou as flags para criação de Site Sharepoint corretamente.</value>
+  </data>
+  <data name="FrmCriarTeamProject_EmptyLines" xml:space="preserve">
+    <value>Você tem linhas em branco no seu arquivo.</value>
+  </data>
 </root>

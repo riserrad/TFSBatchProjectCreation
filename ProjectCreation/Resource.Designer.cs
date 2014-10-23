@@ -79,6 +79,15 @@ namespace ProjectCreation {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Você tem linhas em branco no seu arquivo..
+        /// </summary>
+        internal static string FrmCriarTeamProject_EmptyLines {
+            get {
+                return ResourceManager.GetString("FrmCriarTeamProject_EmptyLines", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to O arquivo selecionado é inválido: {0} {1}.
         /// </summary>
         internal static string FrmCriarTeamProject_InvalidListFile {
@@ -93,6 +102,15 @@ namespace ProjectCreation {
         internal static string FrmCriarTeamProject_InvalidListPath {
             get {
                 return ResourceManager.GetString("FrmCriarTeamProject_InvalidListPath", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Você não usou as flags para criação de Site Sharepoint corretamente..
+        /// </summary>
+        internal static string FrmCriarTeamProject_InvalidSharepointSiteFlag {
+            get {
+                return ResourceManager.GetString("FrmCriarTeamProject_InvalidSharepointSiteFlag", resourceCulture);
             }
         }
         
