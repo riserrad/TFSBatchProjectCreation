@@ -141,7 +141,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;btnCriar.ZOrder" xml:space="preserve">
-    <value>8</value>
+    <value>10</value>
   </data>
   <data name="txtCaminho.Location" type="System.Drawing.Point, System.Drawing">
     <value>151, 38</value>
@@ -162,7 +162,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;txtCaminho.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>9</value>
   </data>
   <metadata name="folderBrowsing.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
@@ -186,7 +186,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;txtCollectionUrl.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>8</value>
   </data>
   <data name="lblCollectionUrl.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -213,7 +213,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;lblCollectionUrl.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>7</value>
   </data>
   <data name="lblTextFile.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -240,7 +240,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;lblTextFile.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>6</value>
   </data>
   <data name="lblLogPath.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -267,7 +267,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;lblLogPath.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>4</value>
   </data>
   <data name="txtLogPath.Location" type="System.Drawing.Point, System.Drawing">
     <value>151, 64</value>
@@ -288,7 +288,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;txtLogPath.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>5</value>
   </data>
   <data name="cmbProcessTemplates.Items" xml:space="preserve">
     <value>MSF for Agile Software Development 2013.3</value>
@@ -318,7 +318,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;cmbProcessTemplates.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>3</value>
   </data>
   <data name="lblProcessTemplate.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -349,6 +349,60 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;lblProcessTemplate.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lblBlogUrl.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblBlogUrl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>148, 161</value>
+  </data>
+  <data name="lblBlogUrl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 13</value>
+  </data>
+  <data name="lblBlogUrl.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="lblBlogUrl.Text" xml:space="preserve">
+    <value>blog.ricardoserradas.net</value>
+  </data>
+  <data name="&gt;&gt;lblBlogUrl.Name" xml:space="preserve">
+    <value>lblBlogUrl</value>
+  </data>
+  <data name="&gt;&gt;lblBlogUrl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblBlogUrl.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblBlogUrl.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblVisitMe.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblVisitMe.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 161</value>
+  </data>
+  <data name="lblVisitMe.Size" type="System.Drawing.Size, System.Drawing">
+    <value>132, 13</value>
+  </data>
+  <data name="lblVisitMe.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="lblVisitMe.Text" xml:space="preserve">
+    <value>Saiba mais sobre ALM em:</value>
+  </data>
+  <data name="&gt;&gt;lblVisitMe.Name" xml:space="preserve">
+    <value>lblVisitMe</value>
+  </data>
+  <data name="&gt;&gt;lblVisitMe.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblVisitMe.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblVisitMe.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
@@ -3182,6 +3236,9 @@
         AAAAAHx8fBmAgIBEXl5eAwAAAAAAAAAAAAAAAAAAAAAAAAAA+P8AAPhHAADwAwAAgAMAAAADAAAAAAAA
         gAAAAAPAAAADwAAAAAEAAAABAACAAQAA4AEAAOADAADgHwAA/x8AAA==
 </value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>Criação de Team Projects em Batch</value>
