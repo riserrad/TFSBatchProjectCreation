@@ -59,5 +59,131 @@ namespace ProjectCreation {
                 resourceCulture = value;
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to O diretório selecionado para armazenar os logs não existe. Deseja criá-lo?.
+        /// </summary>
+        internal static string FrmCriarTeamProject_btnCriar_txtLogPath_DirectoryNotFoud_Create {
+            get {
+                return ResourceManager.GetString("FrmCriarTeamProject_btnCriar_txtLogPath_DirectoryNotFoud_Create", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Não foi possível criar o Team Project {0}.
+        /// </summary>
+        internal static string FrmCriarTeamProject_CouldNotCreateTeamProject {
+            get {
+                return ResourceManager.GetString("FrmCriarTeamProject_CouldNotCreateTeamProject", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to O arquivo selecionado é inválido: {0} {1}.
+        /// </summary>
+        internal static string FrmCriarTeamProject_InvalidListFile {
+            get {
+                return ResourceManager.GetString("FrmCriarTeamProject_InvalidListFile", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to O caminho {0} informado para arquivo de lista de Team Projects é inválido..
+        /// </summary>
+        internal static string FrmCriarTeamProject_InvalidListPath {
+            get {
+                return ResourceManager.GetString("FrmCriarTeamProject_InvalidListPath", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Você precisa selecionar um Template de Processo a ser usado nos Team Projects..
+        /// </summary>
+        internal static string FrmCriarTeamProject_ProcessTemplateNotSelected {
+            get {
+                return ResourceManager.GetString("FrmCriarTeamProject_ProcessTemplateNotSelected", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Nao.
+        /// </summary>
+        internal static string FrmCriarTeamProject_TextFile_No {
+            get {
+                return ResourceManager.GetString("FrmCriarTeamProject_TextFile_No", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Sim.
+        /// </summary>
+        internal static string FrmCriarTeamProject_TextFile_Yes {
+            get {
+                return ResourceManager.GetString("FrmCriarTeamProject_TextFile_Yes", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to O arquivo informado para extrair a lista de Team Projects está vazio..
+        /// </summary>
+        internal static string FrmCriarTeamProject_txtCaminho_Arquivo_Vazio {
+            get {
+                return ResourceManager.GetString("FrmCriarTeamProject_txtCaminho_Arquivo_Vazio", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Arquivos texto (*.txt)|*.txt.
+        /// </summary>
+        internal static string FrmCriarTeamProject_txtCaminho_FilterFiles {
+            get {
+                return ResourceManager.GetString("FrmCriarTeamProject_txtCaminho_FilterFiles", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Você precisa informar a URL da Coleção..
+        /// </summary>
+        internal static string FrmCriarTeamProject_txtCollectionUrl_Precisa_Ser_Informada {
+            get {
+                return ResourceManager.GetString("FrmCriarTeamProject_txtCollectionUrl_Precisa_Ser_Informada", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Você precisa informar o caminho para a pasta que vai armazenar os logs..
+        /// </summary>
+        internal static string FrmCriarTeamProject_txtLogPath_Required {
+            get {
+                return ResourceManager.GetString("FrmCriarTeamProject_txtLogPath_Required", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to O arquivo contém linhas sem informações para criação de projeto..
+        /// </summary>
+        internal static string FrmCriarTeamProject_YourFileContainsInvalidLines {
+            get {
+                return ResourceManager.GetString("FrmCriarTeamProject_YourFileContainsInvalidLines", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to O seu arquivo contém linha(s) com menos de duas colunas..
+        /// </summary>
+        internal static string FrmCriarTeamProject_YourFileContainsLessThan2Lines {
+            get {
+                return ResourceManager.GetString("FrmCriarTeamProject_YourFileContainsLessThan2Lines", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Erro.
+        /// </summary>
+        internal static string MessageBox_TituloGenericoErro {
+            get {
+                return ResourceManager.GetString("MessageBox_TituloGenericoErro", resourceCulture);
+            }
+        }
     }
 }

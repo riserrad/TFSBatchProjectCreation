@@ -27,7 +27,7 @@ namespace ProjectCreation
             txtCollectionUrl.Text = "http://vsalm:8080/tfs/AASP";
 #endif
 
-            _resourceManager = new ResourceManager(this.GetType());
+            _resourceManager = new ResourceManager("ProjectCreation.Resource", this.GetType().Assembly);
         }
 
         private void btnCriar_click(object sender, EventArgs e)

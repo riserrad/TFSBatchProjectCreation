@@ -378,7 +378,4 @@
   <data name="folderBrowsing.TrayLocation" type="System.Drawing.Point, System.Drawing">
     <value>17, 17</value>
   </data>
-  <data name="FrmCriarTeamProject_ProcessTemplateNotSelected" xml:space="preserve">
-    <value>Você precisa selecionar um Template de Processo a ser usado nos Team Projects.</value>
-  </data>
 </root>
