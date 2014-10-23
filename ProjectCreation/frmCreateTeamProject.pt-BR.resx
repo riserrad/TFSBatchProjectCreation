@@ -154,25 +154,4 @@
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
     <value>416, 186</value>
   </data>
-  <data name="FrmCriarTeamProject_btnCriar_txtLogPath_DirectoryNotFoud_Create" xml:space="preserve">
-    <value>O diretório informado para log não existe. Deseja criá-lo?</value>
-  </data>
-  <data name="FrmCriarTeamProject_txtCaminho_Arquivo_Vazio" xml:space="preserve">
-    <value>O arquivo informado para listagem dos Team Projects não contém nenhum registro.</value>
-  </data>
-  <data name="FrmCriarTeamProject_txtCaminho_FilterFiles" xml:space="preserve">
-    <value>Text files (*.txt)|*.txt</value>
-  </data>
-  <data name="FrmCriarTeamProject_txtCollectionUrl_Precisa_Ser_Informada" xml:space="preserve">
-    <value>A URL da coleção precisa ser informada.</value>
-  </data>
-  <data name="FrmCriarTeamProject_txtLogPath_Required" xml:space="preserve">
-    <value>É necessário informar o caminho da pasta para logs.</value>
-  </data>
-  <data name="MessageBox_TituloGenericoErro" xml:space="preserve">
-    <value>Erro</value>
-  </data>
-  <data name="FrmCriarTeamProject_InvalidListPath" xml:space="preserve">
-    <value>O caminho {0} é inválido.</value>
-  </data>
 </root>

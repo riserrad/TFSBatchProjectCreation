@@ -117,109 +117,136 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="&gt;&gt;lblTextFile.Name" xml:space="preserve">
-    <value>lblTextFile</value>
-  </data>
-  <data name="&gt;&gt;txtCaminho.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="lblTextFile.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="txtCollectionUrl.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="btnCriar.Location" type="System.Drawing.Point, System.Drawing">
-    <value>237, 122</value>
+    <value>275, 122</value>
   </data>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>6, 13</value>
+  <data name="btnCriar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 52</value>
   </data>
-  <data name="lblTextFile.Text" xml:space="preserve">
-    <value>Text file:</value>
-  </data>
-  <data name="&gt;&gt;btnCriar.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="btnCriar.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
-  <data name="&gt;&gt;lblTextFile.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="lblTextFile.Location" type="System.Drawing.Point, System.Drawing">
-    <value>5, 41</value>
-  </data>
-  <data name="txtCaminho.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;txtLogPath.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;txtCollectionUrl.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="txtCollectionUrl.Location" type="System.Drawing.Point, System.Drawing">
-    <value>92, 12</value>
-  </data>
-  <data name="&gt;&gt;lblCollectionUrl.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;txtCaminho.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="btnCriar.Text" xml:space="preserve">
+    <value>Criar!</value>
   </data>
   <data name="&gt;&gt;btnCriar.Name" xml:space="preserve">
     <value>btnCriar</value>
   </data>
-  <data name="lblTextFile.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
+  <data name="&gt;&gt;btnCriar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="lblCollectionUrl.Location" type="System.Drawing.Point, System.Drawing">
-    <value>5, 15</value>
+  <data name="&gt;&gt;btnCriar.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>353, 186</value>
+  <data name="&gt;&gt;btnCriar.ZOrder" xml:space="preserve">
+    <value>8</value>
   </data>
-  <data name="lblCollectionUrl.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="txtCaminho.Location" type="System.Drawing.Point, System.Drawing">
+    <value>130, 38</value>
   </data>
-  <data name="&gt;&gt;folderBrowsing.Name" xml:space="preserve">
-    <value>folderBrowsing</value>
-  </data>
-  <data name="lblCollectionUrl.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;txtLogPath.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;lblTextFile.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;lblTextFile.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="txtLogPath.Location" type="System.Drawing.Point, System.Drawing">
-    <value>92, 64</value>
-  </data>
-  <data name="lblCollectionUrl.Size" type="System.Drawing.Size, System.Drawing">
-    <value>81, 13</value>
-  </data>
-  <data name="txtLogPath.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="txtCaminho.Size" type="System.Drawing.Size, System.Drawing">
     <value>249, 20</value>
   </data>
-  <data name="&gt;&gt;txtCollectionUrl.Parent" xml:space="preserve">
+  <data name="txtCaminho.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;txtCaminho.Name" xml:space="preserve">
+    <value>txtCaminho</value>
+  </data>
+  <data name="&gt;&gt;txtCaminho.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtCaminho.Parent" xml:space="preserve">
     <value>$this</value>
+  </data>
+  <data name="&gt;&gt;txtCaminho.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <metadata name="folderBrowsing.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="txtCollectionUrl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>130, 12</value>
+  </data>
+  <data name="txtCollectionUrl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>249, 20</value>
+  </data>
+  <data name="txtCollectionUrl.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;txtCollectionUrl.Name" xml:space="preserve">
+    <value>txtCollectionUrl</value>
   </data>
   <data name="&gt;&gt;txtCollectionUrl.Type" xml:space="preserve">
     <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="txtCollectionUrl.Size" type="System.Drawing.Size, System.Drawing">
-    <value>249, 20</value>
+  <data name="&gt;&gt;txtCollectionUrl.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;txtCollectionUrl.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="lblCollectionUrl.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblCollectionUrl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 15</value>
+  </data>
+  <data name="lblCollectionUrl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 13</value>
+  </data>
+  <data name="lblCollectionUrl.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="lblCollectionUrl.Text" xml:space="preserve">
+    <value>URL da Coleção:</value>
+  </data>
+  <data name="&gt;&gt;lblCollectionUrl.Name" xml:space="preserve">
+    <value>lblCollectionUrl</value>
+  </data>
+  <data name="&gt;&gt;lblCollectionUrl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblCollectionUrl.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblCollectionUrl.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="lblTextFile.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblTextFile.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 41</value>
+  </data>
+  <data name="lblTextFile.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 13</value>
+  </data>
+  <data name="lblTextFile.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="lblTextFile.Text" xml:space="preserve">
+    <value>Text file:</value>
+  </data>
+  <data name="&gt;&gt;lblTextFile.Name" xml:space="preserve">
+    <value>lblTextFile</value>
+  </data>
+  <data name="&gt;&gt;lblTextFile.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblTextFile.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblTextFile.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="lblLogPath.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblLogPath.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 67</value>
   </data>
   <data name="lblLogPath.Size" type="System.Drawing.Size, System.Drawing">
     <value>52, 13</value>
@@ -227,133 +254,125 @@
   <data name="lblLogPath.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
   </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>FrmCreateTeamProject</value>
-  </data>
-  <data name="txtCaminho.Location" type="System.Drawing.Point, System.Drawing">
-    <value>92, 38</value>
-  </data>
-  <data name="&gt;&gt;lblLogPath.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;txtLogPath.Name" xml:space="preserve">
-    <value>txtLogPath</value>
-  </data>
-  <data name="lblLogPath.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;lblLogPath.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lblCollectionUrl.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnCriar.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lblCollectionUrl.Name" xml:space="preserve">
-    <value>lblCollectionUrl</value>
-  </data>
-  <data name="lblTextFile.Size" type="System.Drawing.Size, System.Drawing">
-    <value>47, 13</value>
-  </data>
-  <data name="&gt;&gt;txtCollectionUrl.Name" xml:space="preserve">
-    <value>txtCollectionUrl</value>
-  </data>
-  <data name="&gt;&gt;txtCaminho.Name" xml:space="preserve">
-    <value>txtCaminho</value>
-  </data>
-  <data name="txtLogPath.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;lblLogPath.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="btnCriar.Size" type="System.Drawing.Size, System.Drawing">
-    <value>104, 52</value>
-  </data>
-  <data name="txtCaminho.Size" type="System.Drawing.Size, System.Drawing">
-    <value>249, 20</value>
-  </data>
-  <data name="&gt;&gt;txtLogPath.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="lblLogPath.Text" xml:space="preserve">
+    <value>Log path:</value>
   </data>
   <data name="&gt;&gt;lblLogPath.Name" xml:space="preserve">
     <value>lblLogPath</value>
   </data>
-  <data name="lblLogPath.Location" type="System.Drawing.Point, System.Drawing">
-    <value>5, 67</value>
+  <data name="&gt;&gt;lblLogPath.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;txtCaminho.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;lblLogPath.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblLogPath.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="txtLogPath.Location" type="System.Drawing.Point, System.Drawing">
+    <value>130, 64</value>
+  </data>
+  <data name="txtLogPath.Size" type="System.Drawing.Size, System.Drawing">
+    <value>249, 20</value>
+  </data>
+  <data name="txtLogPath.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
   </data>
-  <data name="lblLogPath.Text" xml:space="preserve">
-    <value>Log path:</value>
+  <data name="&gt;&gt;txtLogPath.Name" xml:space="preserve">
+    <value>txtLogPath</value>
   </data>
-  <data name="&gt;&gt;btnCriar.ZOrder" xml:space="preserve">
-    <value>6</value>
+  <data name="&gt;&gt;txtLogPath.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="btnCriar.Text" xml:space="preserve">
-    <value>Criar!</value>
+  <data name="&gt;&gt;txtLogPath.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
-  <data name="&gt;&gt;folderBrowsing.Type" xml:space="preserve">
-    <value>System.Windows.Forms.FolderBrowserDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;txtLogPath.ZOrder" xml:space="preserve">
+    <value>3</value>
   </data>
-  <data name="lblCollectionUrl.Text" xml:space="preserve">
-    <value>URL da Coleção:</value>
+  <data name="cmbProcessTemplates.Items" xml:space="preserve">
+    <value>MSF for Agile Software Development 2013.3</value>
+  </data>
+  <data name="cmbProcessTemplates.Items1" xml:space="preserve">
+    <value>Microsoft Visual Studio Scrum 2013.3</value>
+  </data>
+  <data name="cmbProcessTemplates.Items2" xml:space="preserve">
+    <value>MSF for CMMI Process Improvement 2013.3</value>
+  </data>
+  <data name="cmbProcessTemplates.Location" type="System.Drawing.Point, System.Drawing">
+    <value>130, 90</value>
+  </data>
+  <data name="cmbProcessTemplates.Size" type="System.Drawing.Size, System.Drawing">
+    <value>249, 21</value>
+  </data>
+  <data name="cmbProcessTemplates.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;cmbProcessTemplates.Name" xml:space="preserve">
+    <value>cmbProcessTemplates</value>
+  </data>
+  <data name="&gt;&gt;cmbProcessTemplates.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmbProcessTemplates.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cmbProcessTemplates.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblProcessTemplate.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lblProcessTemplate.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblProcessTemplate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 93</value>
+  </data>
+  <data name="lblProcessTemplate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 13</value>
+  </data>
+  <data name="lblProcessTemplate.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="lblProcessTemplate.Text" xml:space="preserve">
+    <value>Template de Processo:</value>
+  </data>
+  <data name="&gt;&gt;lblProcessTemplate.Name" xml:space="preserve">
+    <value>lblProcessTemplate</value>
+  </data>
+  <data name="&gt;&gt;lblProcessTemplate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblProcessTemplate.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblProcessTemplate.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>390, 185</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>Criação de Team Projects em Batch</value>
   </data>
-  <data name="&gt;&gt;lblCollectionUrl.ZOrder" xml:space="preserve">
-    <value>3</value>
+  <data name="&gt;&gt;folderBrowsing.Name" xml:space="preserve">
+    <value>folderBrowsing</value>
   </data>
-  <data name="$this.Localizable" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="&gt;&gt;folderBrowsing.Type" xml:space="preserve">
+    <value>System.Windows.Forms.FolderBrowserDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="$this.Language" type="System.Globalization.CultureInfo, mscorlib">
-    <value>pt-BR</value>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>FrmCreateTeamProject</value>
   </data>
-  <data name="folderBrowsing.TrayLocation" type="System.Drawing.Point, System.Drawing">
-    <value>17, 17</value>
-  </data>
-  <data name="FrmCriarTeamProject_btnCriar_txtLogPath_DirectoryNotFoud_Create" xml:space="preserve">
-    <value>O diretório informado para log não existe. Deseja criá-lo?</value>
-  </data>
-  <data name="FrmCriarTeamProject_txtCaminho_Arquivo_Vazio" xml:space="preserve">
-    <value>O arquivo informado para listagem dos Team Projects não contém nenhum registro.</value>
-  </data>
-  <data name="FrmCriarTeamProject_txtCaminho_FilterFiles" xml:space="preserve">
-    <value>Arquivos de texto (*.txt)|*.txt</value>
-  </data>
-  <data name="FrmCriarTeamProject_txtCollectionUrl_Precisa_Ser_Informada" xml:space="preserve">
-    <value>A URL da coleção precisa ser informada.</value>
-  </data>
-  <data name="FrmCriarTeamProject_txtLogPath_Required" xml:space="preserve">
-    <value>É necessário informar o caminho da pasta para logs.</value>
-  </data>
-  <data name="MessageBox_TituloGenericoErro" xml:space="preserve">
-    <value>Erro</value>
-  </data>
-  <data name="FrmCriarTeamProject_CouldNotCreateTeamProject" xml:space="preserve">
-    <value>Não foi possível criar o TeamProject {0}</value>
-  </data>
-  <data name="FrmCriarTeamProject_InvalidListFile" xml:space="preserve">
-    <value>O arquivo informado está inválido: {0} {1}</value>
-  </data>
-  <data name="FrmCriarTeamProject_TextFile_No" xml:space="preserve">
-    <value>Nao</value>
-  </data>
-  <data name="FrmCriarTeamProject_TextFile_Yes" xml:space="preserve">
-    <value>Sim</value>
-  </data>
-  <data name="FrmCriarTeamProject_YourFileContainsInvalidLines" xml:space="preserve">
-    <value>Seu arquivo contém linhas sem informação de criação de Portal de Projeto.</value>
-  </data>
-  <data name="FrmCriarTeamProject_YourFileContainsLessThan2Lines" xml:space="preserve">
-    <value>Seu arquivo contém linha(s) com menos de 2 colunas.</value>
-  </data>
-  <data name="FrmCriarTeamProject_InvalidListPath" xml:space="preserve">
-    <value>O caminho {0} é inválido.</value>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
 </root>
