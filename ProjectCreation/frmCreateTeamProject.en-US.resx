@@ -120,11 +120,18 @@
   <data name="btnCriar.Text" xml:space="preserve">
     <value>Create!</value>
   </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="lblCollectionUrl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>81, 13</value>
+  </data>
   <data name="lblCollectionUrl.Text" xml:space="preserve">
     <value>Collection URL:</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>Batch Team Project Creation</value>
+  </data>
+  <data name="FrmCriarTeamProject_ProcessTemplateNotSelected" xml:space="preserve">
+    <value>You must select a Process Template to use in the Team Project creation.</value>
   </data>
   <data name="FrmCriarTeamProject_btnCriar_txtLogPath_DirectoryNotFoud_Create" xml:space="preserve">
     <value>The provided directory for log files does not exist. Would you like to create it?</value>
