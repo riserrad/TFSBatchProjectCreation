@@ -130,4 +130,7 @@
   <data name="$this.Text" xml:space="preserve">
     <value>Batch Team Project Creation</value>
   </data>
+  <data name="lblVisitMe.Text" xml:space="preserve">
+    <value>Read more about ALM at:</value>
+  </data>
 </root>

@@ -39,6 +39,8 @@
             this.txtLogPath = new System.Windows.Forms.TextBox();
             this.cmbProcessTemplates = new System.Windows.Forms.ComboBox();
             this.lblProcessTemplate = new System.Windows.Forms.Label();
+            this.lblBlogUrl = new System.Windows.Forms.LinkLabel();
+            this.lblVisitMe = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btnCriar
@@ -101,10 +103,23 @@
             resources.ApplyResources(this.lblProcessTemplate, "lblProcessTemplate");
             this.lblProcessTemplate.Name = "lblProcessTemplate";
             // 
+            // lblBlogUrl
+            // 
+            resources.ApplyResources(this.lblBlogUrl, "lblBlogUrl");
+            this.lblBlogUrl.Name = "lblBlogUrl";
+            this.lblBlogUrl.TabStop = true;
+            // 
+            // lblVisitMe
+            // 
+            resources.ApplyResources(this.lblVisitMe, "lblVisitMe");
+            this.lblVisitMe.Name = "lblVisitMe";
+            // 
             // FrmCreateTeamProject
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.lblVisitMe);
+            this.Controls.Add(this.lblBlogUrl);
             this.Controls.Add(this.lblProcessTemplate);
             this.Controls.Add(this.cmbProcessTemplates);
             this.Controls.Add(this.lblLogPath);
@@ -114,6 +129,9 @@
             this.Controls.Add(this.txtCollectionUrl);
             this.Controls.Add(this.txtCaminho);
             this.Controls.Add(this.btnCriar);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            this.HelpButton = true;
+            this.MaximizeBox = false;
             this.Name = "FrmCreateTeamProject";
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -132,6 +150,8 @@
         private System.Windows.Forms.TextBox txtLogPath;
         private System.Windows.Forms.ComboBox cmbProcessTemplates;
         private System.Windows.Forms.Label lblProcessTemplate;
+        private System.Windows.Forms.LinkLabel lblBlogUrl;
+        private System.Windows.Forms.Label lblVisitMe;
     }
 }
 
