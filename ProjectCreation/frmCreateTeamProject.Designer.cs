@@ -37,6 +37,8 @@
             this.lblTextFile = new System.Windows.Forms.Label();
             this.lblLogPath = new System.Windows.Forms.Label();
             this.txtLogPath = new System.Windows.Forms.TextBox();
+            this.cmbProcessTemplates = new System.Windows.Forms.ComboBox();
+            this.lblProcessTemplate = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btnCriar
@@ -53,10 +55,6 @@
             this.txtCaminho.ReadOnly = true;
             this.txtCaminho.Click += new System.EventHandler(this.txtCaminho_Click);
             this.txtCaminho.TextChanged += new System.EventHandler(this.txtCaminho_TextChanged);
-            // 
-            // folderBrowsing
-            // 
-            resources.ApplyResources(this.folderBrowsing, "folderBrowsing");
             // 
             // txtCollectionUrl
             // 
@@ -85,10 +83,30 @@
             this.txtLogPath.ReadOnly = true;
             this.txtLogPath.Click += new System.EventHandler(this.txtLogPath_Click);
             // 
+            // cmbProcessTemplates
+            // 
+            this.cmbProcessTemplates.DisplayMember = "1";
+            this.cmbProcessTemplates.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbProcessTemplates.FormattingEnabled = true;
+            this.cmbProcessTemplates.Items.AddRange(new object[] {
+            resources.GetString("cmbProcessTemplates.Items"),
+            resources.GetString("cmbProcessTemplates.Items1"),
+            resources.GetString("cmbProcessTemplates.Items2")});
+            resources.ApplyResources(this.cmbProcessTemplates, "cmbProcessTemplates");
+            this.cmbProcessTemplates.Name = "cmbProcessTemplates";
+            this.cmbProcessTemplates.ValueMember = "1";
+            // 
+            // lblProcessTemplate
+            // 
+            resources.ApplyResources(this.lblProcessTemplate, "lblProcessTemplate");
+            this.lblProcessTemplate.Name = "lblProcessTemplate";
+            // 
             // FrmCreateTeamProject
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.lblProcessTemplate);
+            this.Controls.Add(this.cmbProcessTemplates);
             this.Controls.Add(this.lblLogPath);
             this.Controls.Add(this.txtLogPath);
             this.Controls.Add(this.lblTextFile);
@@ -112,6 +130,8 @@
         private System.Windows.Forms.Label lblTextFile;
         private System.Windows.Forms.Label lblLogPath;
         private System.Windows.Forms.TextBox txtLogPath;
+        private System.Windows.Forms.ComboBox cmbProcessTemplates;
+        private System.Windows.Forms.Label lblProcessTemplate;
     }
 }
 
