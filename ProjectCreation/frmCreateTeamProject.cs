@@ -17,7 +17,7 @@ namespace ProjectCreation
 
         public FrmCreateTeamProject()
         {
-            Thread.CurrentThread.CurrentUICulture = new CultureInfo("pt-BR");
+            Thread.CurrentThread.CurrentUICulture = new CultureInfo("en-US");
 
             InitializeComponent();
 
@@ -63,6 +63,15 @@ namespace ProjectCreation
                 {
                     return;
                 }
+            }
+
+            if (string.IsNullOrWhiteSpace(cmbProcessTemplates.Text))
+            {
+                MessageBox.Show(_resourceManager.GetString("FrmCriarTeamProject_ProcessTemplateNotSelected"),
+                    _resourceManager.GetString("MessageBox_TituloGenericoErro"), MessageBoxButtons.OK,
+                    MessageBoxIcon.Error);
+
+                return;
             }
             
             string validacao;
