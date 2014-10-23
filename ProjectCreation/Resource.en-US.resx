@@ -156,6 +156,12 @@
   <data name="FrmCriarTeamProject_YourFileContainsLessThan2Lines" xml:space="preserve">
     <value>Your file contain(s) lines with less than 2 columns.</value>
   </data>
+  <data name="FrmCriarTeamProject_EmptyLines" xml:space="preserve">
+    <value>You have empty lines in your file.</value>
+  </data>
+  <data name="FrmCriarTeamProject_InvalidSharepointSiteFlag" xml:space="preserve">
+    <value>You didn't use correctly the flags for Sharepoint Site creation.</value>
+  </data>
   <data name="MessageBox_TituloGenericoErro" xml:space="preserve">
     <value>Error</value>
   </data>
