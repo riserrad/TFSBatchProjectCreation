@@ -130,46 +130,4 @@
   <data name="$this.Text" xml:space="preserve">
     <value>Batch Team Project Creation</value>
   </data>
-  <data name="FrmCriarTeamProject_ProcessTemplateNotSelected" xml:space="preserve">
-    <value>You must select a Process Template to use in the Team Project creation.</value>
-  </data>
-  <data name="FrmCriarTeamProject_btnCriar_txtLogPath_DirectoryNotFoud_Create" xml:space="preserve">
-    <value>The provided directory for log files does not exist. Would you like to create it?</value>
-  </data>
-  <data name="FrmCriarTeamProject_txtCaminho_Arquivo_Vazio" xml:space="preserve">
-    <value>The provided file for Team Projects list is empty.</value>
-  </data>
-  <data name="FrmCriarTeamProject_txtCaminho_FilterFiles" xml:space="preserve">
-    <value>Text files (*.txt)|*.txt</value>
-  </data>
-  <data name="FrmCriarTeamProject_txtCollectionUrl_Precisa_Ser_Informada" xml:space="preserve">
-    <value>You must provide the Collection URL.</value>
-  </data>
-  <data name="FrmCriarTeamProject_txtLogPath_Required" xml:space="preserve">
-    <value>You must provide the logs folder path.</value>
-  </data>
-  <data name="MessageBox_TituloGenericoErro" xml:space="preserve">
-    <value>Error</value>
-  </data>
-  <data name="FrmCriarTeamProject_CouldNotCreateTeamProject" xml:space="preserve">
-    <value>Could not create Team Project {0}</value>
-  </data>
-  <data name="FrmCriarTeamProject_InvalidListFile" xml:space="preserve">
-    <value>The provided file is invalid: {0} {1}</value>
-  </data>
-  <data name="FrmCriarTeamProject_TextFile_No" xml:space="preserve">
-    <value>No</value>
-  </data>
-  <data name="FrmCriarTeamProject_TextFile_Yes" xml:space="preserve">
-    <value>Yes</value>
-  </data>
-  <data name="FrmCriarTeamProject_YourFileContainsInvalidLines" xml:space="preserve">
-    <value>Your file contains rows without project information.</value>
-  </data>
-  <data name="FrmCriarTeamProject_YourFileContainsLessThan2Lines" xml:space="preserve">
-    <value>Your file contain(s) lines with less than 2 columns.</value>
-  </data>
-  <data name="FrmCriarTeamProject_InvalidListPath" xml:space="preserve">
-    <value>The path {0} is invalid.</value>
-  </data>
 </root>
