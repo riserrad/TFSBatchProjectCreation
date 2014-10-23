@@ -7,7 +7,6 @@ using System.Linq;
 using System.Resources;
 using System.Threading;
 using System.Windows.Forms;
-using ProjectCreation.Properties;
 
 namespace ProjectCreation
 {
