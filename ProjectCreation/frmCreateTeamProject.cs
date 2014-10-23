@@ -16,6 +16,11 @@ namespace ProjectCreation
 
         public FrmCreateTeamProject()
         {
+#if DEBUG
+            Thread.CurrentThread.CurrentUICulture = MessageBox.Show("Choose Yes for pt-BR or No for en-US", "Choose Language", MessageBoxButtons.YesNo) ==
+                                                    DialogResult.Yes ? new CultureInfo("pt-BR") : new CultureInfo("en-US");
+#endif
+
             InitializeComponent();
 
             txtCaminho.Text = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.Desktop), "teamprojects.txt");
