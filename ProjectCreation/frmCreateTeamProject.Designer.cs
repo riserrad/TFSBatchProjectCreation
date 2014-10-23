@@ -56,6 +56,10 @@
             this.txtCaminho.Click += new System.EventHandler(this.txtCaminho_Click);
             this.txtCaminho.TextChanged += new System.EventHandler(this.txtCaminho_TextChanged);
             // 
+            // folderBrowsing
+            // 
+            resources.ApplyResources(this.folderBrowsing, "folderBrowsing");
+            // 
             // txtCollectionUrl
             // 
             resources.ApplyResources(this.txtCollectionUrl, "txtCollectionUrl");
@@ -85,6 +89,7 @@
             // 
             // cmbProcessTemplates
             // 
+            resources.ApplyResources(this.cmbProcessTemplates, "cmbProcessTemplates");
             this.cmbProcessTemplates.DisplayMember = "1";
             this.cmbProcessTemplates.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmbProcessTemplates.FormattingEnabled = true;
@@ -92,7 +97,6 @@
             resources.GetString("cmbProcessTemplates.Items"),
             resources.GetString("cmbProcessTemplates.Items1"),
             resources.GetString("cmbProcessTemplates.Items2")});
-            resources.ApplyResources(this.cmbProcessTemplates, "cmbProcessTemplates");
             this.cmbProcessTemplates.Name = "cmbProcessTemplates";
             this.cmbProcessTemplates.ValueMember = "1";
             // 

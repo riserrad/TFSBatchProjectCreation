@@ -52,8 +52,14 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Resource.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resource.resx</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="frmCreateTeamProject.en-US.resx">
       <DependentUpon>frmCreateTeamProject.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="frmCreateTeamProject.ps.resx">
       <DependentUpon>frmCreateTeamProject.cs</DependentUpon>
@@ -63,6 +69,11 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmCreateTeamProject.resx">
       <DependentUpon>frmCreateTeamProject.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resource.en-US.resx" />
+    <EmbeddedResource Include="Resource.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resource.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
