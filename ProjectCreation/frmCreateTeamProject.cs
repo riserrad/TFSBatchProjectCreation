@@ -38,7 +38,7 @@ namespace ProjectCreation
                 txtCollectionUrl.Focus();
                 return;
             }
-            
+
             if (!File.Exists(txtCaminho.Text))
             {
                 MessageBox.Show(string.Format(_resourceManager.GetString("FrmCriarTeamProject_InvalidListPath"), txtCaminho.Text), _resourceManager.GetString("MessageBox_TituloGenericoErro"), MessageBoxButtons.OK, MessageBoxIcon.Error);
@@ -73,7 +73,7 @@ namespace ProjectCreation
 
                 return;
             }
-            
+
             string validacao;
 
             var lines = ReadFile(txtCaminho.Text, out validacao);
@@ -119,6 +119,7 @@ namespace ProjectCreation
             var messages = new List<string>();
             var columns = false;
             var yesNo = false;
+            var emptyLines = false;
 
             if (lines.Length == 0)
             {
@@ -129,19 +130,33 @@ namespace ProjectCreation
             {
                 var split = line.Split('|');
 
+                if (string.IsNullOrWhiteSpace(line) && !emptyLines)
+                {
+                    messages.Add(_resourceManager.GetString("FrmCriarTeamProject_EmptyLines"));
+                    emptyLines = true;
+                    continue;
+                }
+                
                 if (split.Length < 2 && !columns)
                 {
                     messages.Add(_resourceManager.GetString("FrmCriarTeamProject_YourFileContainsLessThan2Lines"));
                     columns = true;
+
+                    continue;
                 }
 
-                if (split.Length > 1)
+                if (split.Length == 2)
                 {
-                    if (split[1].ToLower().Equals(_resourceManager.GetString("FrmCriarTeamProject_TextFile_Yes").ToLower()) || split[1].ToLower().Equals(_resourceManager.GetString("FrmCriarTeamProject_TextFile_No").ToLower()) || yesNo) continue;  
-                }
+                    if (split[1].ToLower().Equals(_resourceManager.GetString("FrmCriarTeamProject_TextFile_Yes").ToLower())
+                        || split[1].ToLower().Equals(_resourceManager.GetString("FrmCriarTeamProject_TextFile_No").ToLower())
+                        || yesNo)
+                    {
+                        continue;
+                    }
 
-                messages.Add(_resourceManager.GetString("FrmCriarTeamProject_YourFileContainsInvalidLines"));
-                yesNo = true;
+                    messages.Add(_resourceManager.GetString("FrmCriarTeamProject_InvalidSharepointSiteFlag"));
+                    yesNo = true;
+                }
             }
 
             if (messages.Count > 0)
@@ -152,14 +167,15 @@ namespace ProjectCreation
             return lines;
         }
 
-        private static void ExecutarFerramenta(string fileName, string arguments){
+        private static void ExecutarFerramenta(string fileName, string arguments)
+        {
             var info = new ProcessStartInfo
             {
                 FileName = fileName,
                 Arguments = arguments,
                 WorkingDirectory = @"%programfiles(x86)%\Microsoft Team Foundation Server 2013 Power Tools"
             };
-            
+
             var process = Process.Start(info);
 
             var result = string.Empty;
