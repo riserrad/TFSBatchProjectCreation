@@ -84,7 +84,7 @@ namespace ProjectCreation
 
             const string executavel = "tfpt.exe";
 
-            var comando = string.Format(@"createteamproject /collection:{0} /teamproject:""[teamproject]"" /processtemplate:""MSF for Agile Software Development 2013.3"" /sourcecontrol:New /log:""{1}"" /noportal", txtCollectionUrl.Text, txtLogPath.Text);
+            var comando = string.Format(@"createteamproject /collection:{0} /teamproject:""[teamproject]"" /processtemplate:""{2}"" /sourcecontrol:New /log:""{1}"" /noportal", txtCollectionUrl.Text, txtLogPath.Text, cmbProcessTemplates.Text);
 
             foreach (var line in lines)
             {
