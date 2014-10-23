@@ -16,8 +16,6 @@ namespace ProjectCreation
 
         public FrmCreateTeamProject()
         {
-            Thread.CurrentThread.CurrentUICulture = new CultureInfo("en-US");
-
             InitializeComponent();
 
             txtCaminho.Text = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.Desktop), "teamprojects.txt");
