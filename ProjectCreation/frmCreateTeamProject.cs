@@ -105,7 +105,7 @@ namespace ProjectCreation
 
                 try
                 {
-                    ExecutarFerramenta(executavel, comandoFinal);
+                    RunTool(executavel, comandoFinal);
                 }
                 catch (Exception ex)
                 {
@@ -169,7 +169,7 @@ namespace ProjectCreation
             return lines;
         }
 
-        private static void ExecutarFerramenta(string fileName, string arguments)
+        private static void RunTool(string fileName, string arguments)
         {
             var info = new ProcessStartInfo
             {
@@ -179,17 +179,7 @@ namespace ProjectCreation
             };
 
             var process = Process.Start(info);
-
-            var result = string.Empty;
-
-            if (process != null)
-            {
-                process.BeginOutputReadLine();
-                result = process.StandardOutput.ReadToEnd();
-                process.WaitForExit();
-            }
-
-            MessageBox.Show(result);
+            process.WaitForExit();
         }
 
         private void txtCaminho_Click(object sender, EventArgs e)
