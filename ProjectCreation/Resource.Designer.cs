@@ -59,13 +59,6 @@ namespace ProjectCreation {
                 resourceCulture = value;
             }
         }
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> c389bb2... stable resource files
-=======
->>>>>>> 819fb48c66fd4bd821537562bc3ebc757e7c21b2
         
         /// <summary>
         ///   Looks up a localized string similar to O diretório selecionado para armazenar os logs não existe. Deseja criá-lo?.
@@ -86,13 +79,6 @@ namespace ProjectCreation {
         }
         
         /// <summary>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 0bdf4ed... icons and texts
-=======
->>>>>>> 819fb48c66fd4bd821537562bc3ebc757e7c21b2
         ///   Looks up a localized string similar to Você tem linhas em branco no seu arquivo..
         /// </summary>
         internal static string FrmCriarTeamProject_EmptyLines {
@@ -102,14 +88,6 @@ namespace ProjectCreation {
         }
         
         /// <summary>
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> c389bb2... stable resource files
-=======
->>>>>>> 0bdf4ed... icons and texts
-=======
->>>>>>> 819fb48c66fd4bd821537562bc3ebc757e7c21b2
         ///   Looks up a localized string similar to O arquivo selecionado é inválido: {0} {1}.
         /// </summary>
         internal static string FrmCriarTeamProject_InvalidListFile {
@@ -128,13 +106,6 @@ namespace ProjectCreation {
         }
         
         /// <summary>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 0bdf4ed... icons and texts
-=======
->>>>>>> 819fb48c66fd4bd821537562bc3ebc757e7c21b2
         ///   Looks up a localized string similar to Você não usou as flags para criação de Site Sharepoint corretamente..
         /// </summary>
         internal static string FrmCriarTeamProject_InvalidSharepointSiteFlag {
@@ -144,14 +115,6 @@ namespace ProjectCreation {
         }
         
         /// <summary>
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> c389bb2... stable resource files
-=======
->>>>>>> 0bdf4ed... icons and texts
-=======
->>>>>>> 819fb48c66fd4bd821537562bc3ebc757e7c21b2
         ///   Looks up a localized string similar to Você precisa selecionar um Template de Processo a ser usado nos Team Projects..
         /// </summary>
         internal static string FrmCriarTeamProject_ProcessTemplateNotSelected {
@@ -240,13 +203,5 @@ namespace ProjectCreation {
                 return ResourceManager.GetString("MessageBox_TituloGenericoErro", resourceCulture);
             }
         }
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> a13d8b9... continuing combo to select process template
-=======
->>>>>>> c389bb2... stable resource files
-=======
->>>>>>> 819fb48c66fd4bd821537562bc3ebc757e7c21b2
     }
 }
