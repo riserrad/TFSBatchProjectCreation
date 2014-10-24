@@ -39,10 +39,14 @@
             this.txtLogPath = new System.Windows.Forms.TextBox();
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 819fb48c66fd4bd821537562bc3ebc757e7c21b2
             this.cmbProcessTemplates = new System.Windows.Forms.ComboBox();
             this.lblProcessTemplate = new System.Windows.Forms.Label();
             this.lblBlogUrl = new System.Windows.Forms.LinkLabel();
             this.lblVisitMe = new System.Windows.Forms.Label();
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 6cf346c... Localization completed
@@ -52,6 +56,8 @@
 >>>>>>> b7d127e... Adding combobox to select process template
 =======
 >>>>>>> 8055171... version 1.0.0.0
+=======
+>>>>>>> 819fb48c66fd4bd821537562bc3ebc757e7c21b2
             this.SuspendLayout();
             // 
             // btnCriar
@@ -73,6 +79,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> a13d8b9... continuing combo to select process template
@@ -88,6 +95,8 @@
 >>>>>>> a13d8b9... continuing combo to select process template
 =======
 >>>>>>> 0bdf4ed... icons and texts
+=======
+>>>>>>> 819fb48c66fd4bd821537562bc3ebc757e7c21b2
             // txtCollectionUrl
             // 
             resources.ApplyResources(this.txtCollectionUrl, "txtCollectionUrl");
@@ -117,8 +126,11 @@
             // 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> b7d127e... Adding combobox to select process template
+=======
+>>>>>>> 819fb48c66fd4bd821537562bc3ebc757e7c21b2
             // cmbProcessTemplates
             // 
             this.cmbProcessTemplates.DisplayMember = "1";
@@ -139,8 +151,11 @@
             // 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8055171... version 1.0.0.0
+=======
+>>>>>>> 819fb48c66fd4bd821537562bc3ebc757e7c21b2
             // lblBlogUrl
             // 
             resources.ApplyResources(this.lblBlogUrl, "lblBlogUrl");
@@ -153,12 +168,15 @@
             this.lblVisitMe.Name = "lblVisitMe";
             // 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6cf346c... Localization completed
 =======
 >>>>>>> b7d127e... Adding combobox to select process template
 =======
 >>>>>>> 8055171... version 1.0.0.0
+=======
+>>>>>>> 819fb48c66fd4bd821537562bc3ebc757e7c21b2
             // FrmCreateTeamProject
             // 
             resources.ApplyResources(this, "$this");
@@ -166,10 +184,14 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 819fb48c66fd4bd821537562bc3ebc757e7c21b2
             this.Controls.Add(this.lblVisitMe);
             this.Controls.Add(this.lblBlogUrl);
             this.Controls.Add(this.lblProcessTemplate);
             this.Controls.Add(this.cmbProcessTemplates);
+<<<<<<< HEAD
 =======
 >>>>>>> 6cf346c... Localization completed
 =======
@@ -180,6 +202,8 @@
             this.Controls.Add(this.lblProcessTemplate);
             this.Controls.Add(this.cmbProcessTemplates);
 >>>>>>> b7d127e... Adding combobox to select process template
+=======
+>>>>>>> 819fb48c66fd4bd821537562bc3ebc757e7c21b2
             this.Controls.Add(this.lblLogPath);
             this.Controls.Add(this.txtLogPath);
             this.Controls.Add(this.lblTextFile);
@@ -189,6 +213,7 @@
             this.Controls.Add(this.btnCriar);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.HelpButton = true;
             this.MaximizeBox = false;
@@ -199,6 +224,11 @@
             this.HelpButton = true;
             this.MaximizeBox = false;
 >>>>>>> 8055171... version 1.0.0.0
+=======
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            this.HelpButton = true;
+            this.MaximizeBox = false;
+>>>>>>> 819fb48c66fd4bd821537562bc3ebc757e7c21b2
             this.Name = "FrmCreateTeamProject";
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -217,6 +247,7 @@
         private System.Windows.Forms.TextBox txtLogPath;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         private System.Windows.Forms.ComboBox cmbProcessTemplates;
         private System.Windows.Forms.Label lblProcessTemplate;
         private System.Windows.Forms.LinkLabel lblBlogUrl;
@@ -232,6 +263,12 @@
         private System.Windows.Forms.LinkLabel lblBlogUrl;
         private System.Windows.Forms.Label lblVisitMe;
 >>>>>>> 8055171... version 1.0.0.0
+=======
+        private System.Windows.Forms.ComboBox cmbProcessTemplates;
+        private System.Windows.Forms.Label lblProcessTemplate;
+        private System.Windows.Forms.LinkLabel lblBlogUrl;
+        private System.Windows.Forms.Label lblVisitMe;
+>>>>>>> 819fb48c66fd4bd821537562bc3ebc757e7c21b2
     }
 }
 
