@@ -121,8 +121,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 0bdf4ed... icons and texts
+=======
+>>>>>>> 819fb48c66fd4bd821537562bc3ebc757e7c21b2
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="btnCriar.Location" type="System.Drawing.Point, System.Drawing">
     <value>296, 122</value>
@@ -130,6 +133,9 @@
   <data name="btnCriar.Size" type="System.Drawing.Size, System.Drawing">
     <value>104, 52</value>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 819fb48c66fd4bd821537562bc3ebc757e7c21b2
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="btnCriar.TabIndex" type="System.Int32, mscorlib">
@@ -143,6 +149,7 @@
   </data>
   <data name="&gt;&gt;btnCriar.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+<<<<<<< HEAD
 =======
   <data name="&gt;&gt;lblTextFile.Name" xml:space="preserve">
     <value>lblTextFile</value>
@@ -211,10 +218,14 @@
   <data name="lblProcessTemplate.TabIndex" type="System.Int32, mscorlib">
 >>>>>>> a13d8b9... continuing combo to select process template
 =======
+=======
+  </data>
+>>>>>>> 819fb48c66fd4bd821537562bc3ebc757e7c21b2
   <data name="&gt;&gt;btnCriar.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
   <data name="&gt;&gt;btnCriar.ZOrder" xml:space="preserve">
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 0bdf4ed... icons and texts
     <value>8</value>
@@ -222,10 +233,14 @@
 =======
     <value>10</value>
 >>>>>>> 8055171... version 1.0.0.0
+=======
+    <value>10</value>
+>>>>>>> 819fb48c66fd4bd821537562bc3ebc757e7c21b2
   </data>
   <data name="txtCaminho.Location" type="System.Drawing.Point, System.Drawing">
     <value>151, 38</value>
   </data>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -296,12 +311,17 @@
     <value>8</value>
 >>>>>>> a13d8b9... continuing combo to select process template
 =======
+=======
+>>>>>>> 819fb48c66fd4bd821537562bc3ebc757e7c21b2
   <data name="txtCaminho.Size" type="System.Drawing.Size, System.Drawing">
     <value>249, 20</value>
   </data>
   <data name="txtCaminho.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
+<<<<<<< HEAD
 >>>>>>> 0bdf4ed... icons and texts
+=======
+>>>>>>> 819fb48c66fd4bd821537562bc3ebc757e7c21b2
   </data>
   <data name="&gt;&gt;txtCaminho.Name" xml:space="preserve">
     <value>txtCaminho</value>
@@ -339,6 +359,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
     <value>353, 186</value>
 >>>>>>> 6cf346c... Localization completed
@@ -354,10 +375,15 @@
 =======
     <value>8</value>
 >>>>>>> 8055171... version 1.0.0.0
+=======
+  <data name="&gt;&gt;txtCollectionUrl.ZOrder" xml:space="preserve">
+    <value>8</value>
+>>>>>>> 819fb48c66fd4bd821537562bc3ebc757e7c21b2
   </data>
   <data name="lblCollectionUrl.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -383,12 +409,17 @@
     <value>1</value>
 >>>>>>> a13d8b9... continuing combo to select process template
 =======
+=======
+>>>>>>> 819fb48c66fd4bd821537562bc3ebc757e7c21b2
   <data name="lblCollectionUrl.Location" type="System.Drawing.Point, System.Drawing">
     <value>5, 15</value>
   </data>
   <data name="lblCollectionUrl.Size" type="System.Drawing.Size, System.Drawing">
     <value>89, 13</value>
+<<<<<<< HEAD
 >>>>>>> 0bdf4ed... icons and texts
+=======
+>>>>>>> 819fb48c66fd4bd821537562bc3ebc757e7c21b2
   </data>
   <data name="lblCollectionUrl.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -397,6 +428,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 819fb48c66fd4bd821537562bc3ebc757e7c21b2
   <data name="lblCollectionUrl.Text" xml:space="preserve">
     <value>URL da Coleção:</value>
   </data>
@@ -444,6 +478,7 @@
   </data>
   <data name="lblLogPath.Location" type="System.Drawing.Point, System.Drawing">
     <value>5, 67</value>
+<<<<<<< HEAD
 =======
   <data name="&gt;&gt;txtLogPath.ZOrder" xml:space="preserve">
     <value>1</value>
@@ -494,6 +529,15 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+  </data>
+  <data name="lblLogPath.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 13</value>
+  </data>
+  <data name="lblLogPath.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+>>>>>>> 819fb48c66fd4bd821537562bc3ebc757e7c21b2
   <data name="lblLogPath.Text" xml:space="preserve">
     <value>Log path:</value>
   </data>
@@ -517,6 +561,7 @@
   </data>
   <data name="txtLogPath.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
+<<<<<<< HEAD
 =======
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>FrmCreateTeamProject</value>
@@ -561,6 +606,12 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+  </data>
+  <data name="&gt;&gt;txtLogPath.Name" xml:space="preserve">
+    <value>txtLogPath</value>
+  </data>
+>>>>>>> 819fb48c66fd4bd821537562bc3ebc757e7c21b2
   <data name="&gt;&gt;txtLogPath.Type" xml:space="preserve">
     <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
@@ -3534,6 +3585,7 @@
   </data>
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
     <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+<<<<<<< HEAD
 =======
   <data name="lblLogPath.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -6533,4 +6585,7 @@
   </data>
 =======
 >>>>>>> c389bb2... stable resource files
+=======
+  </data>
+>>>>>>> 819fb48c66fd4bd821537562bc3ebc757e7c21b2
 </root>

@@ -122,17 +122,23 @@
   </data>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a13d8b9... continuing combo to select process template
+=======
+>>>>>>> 819fb48c66fd4bd821537562bc3ebc757e7c21b2
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="lblCollectionUrl.Size" type="System.Drawing.Size, System.Drawing">
     <value>81, 13</value>
   </data>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6cf346c... Localization completed
 =======
 >>>>>>> a13d8b9... continuing combo to select process template
+=======
+>>>>>>> 819fb48c66fd4bd821537562bc3ebc757e7c21b2
   <data name="lblCollectionUrl.Text" xml:space="preserve">
     <value>Collection URL:</value>
   </data>
@@ -143,11 +149,15 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 819fb48c66fd4bd821537562bc3ebc757e7c21b2
   <data name="lblVisitMe.Text" xml:space="preserve">
     <value>Read more about ALM at:</value>
   </data>
   <data name="lblProcessTemplate.Text" xml:space="preserve">
     <value>Process Template:</value>
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -205,4 +215,7 @@
 =======
   </data>
 >>>>>>> 6bde0f1... adjusting process template label
+=======
+  </data>
+>>>>>>> 819fb48c66fd4bd821537562bc3ebc757e7c21b2
 </root>

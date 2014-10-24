@@ -2,8 +2,11 @@
 <root>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c389bb2... stable resource files
+=======
+>>>>>>> 819fb48c66fd4bd821537562bc3ebc757e7c21b2
   <!-- 
     Microsoft ResX Schema 
     
@@ -58,6 +61,9 @@
             : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
             : and then encoded with base64 encoding.
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 819fb48c66fd4bd821537562bc3ebc757e7c21b2
 
     mimetype: application/x-microsoft.net.object.bytearray.base64
     value   : The object must be serialized into a byte array 
@@ -170,6 +176,7 @@
   <data name="FrmCriarTeamProject_EmptyLines" xml:space="preserve">
     <value>Você tem linhas em branco no seu arquivo.</value>
   </data>
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 	<!-- 
@@ -381,4 +388,6 @@
 >>>>>>> c389bb2... stable resource files
 =======
 >>>>>>> 0bdf4ed... icons and texts
+=======
+>>>>>>> 819fb48c66fd4bd821537562bc3ebc757e7c21b2
 </root>
