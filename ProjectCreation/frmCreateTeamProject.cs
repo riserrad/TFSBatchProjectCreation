@@ -26,7 +26,7 @@ namespace ProjectCreation
             txtCaminho.Text = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.Desktop), "teamprojects.txt");
             txtLogPath.Text = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
 #if DEBUG
-            txtCollectionUrl.Text = "http://tfs-server:8080/tfs/FabrikamFiberCollection";
+            txtCollectionUrl.Text = "http://vsalm:8080/tfs/FabrikamFiberCollection";
 #endif
 
             _resourceManager = new ResourceManager("ProjectCreation.Resource", this.GetType().Assembly);
