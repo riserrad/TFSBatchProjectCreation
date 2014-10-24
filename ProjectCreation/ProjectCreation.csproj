@@ -13,8 +13,11 @@
     <FileAlignment>512</FileAlignment>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f9ae1e8... localization adjustments before first publish\
+=======
+>>>>>>> 819fb48c66fd4bd821537562bc3ebc757e7c21b2
     <PublishUrl>publish\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Disk</InstallFrom>
@@ -31,10 +34,13 @@
     <UseApplicationTrust>false</UseApplicationTrust>
     <BootstrapperEnabled>true</BootstrapperEnabled>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6cf346c... Localization completed
 =======
 >>>>>>> f9ae1e8... localization adjustments before first publish\
+=======
+>>>>>>> 819fb48c66fd4bd821537562bc3ebc757e7c21b2
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -78,13 +84,17 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a13d8b9... continuing combo to select process template
+=======
+>>>>>>> 819fb48c66fd4bd821537562bc3ebc757e7c21b2
     <Compile Include="Resource.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Resource.resx</DependentUpon>
     </Compile>
+<<<<<<< HEAD
 <<<<<<< HEAD
     <EmbeddedResource Include="frmCreateTeamProject.en-US.resx">
       <DependentUpon>frmCreateTeamProject.cs</DependentUpon>
@@ -98,6 +108,11 @@
       <DependentUpon>frmCreateTeamProject.cs</DependentUpon>
       <SubType>Designer</SubType>
 >>>>>>> a13d8b9... continuing combo to select process template
+=======
+    <EmbeddedResource Include="frmCreateTeamProject.en-US.resx">
+      <DependentUpon>frmCreateTeamProject.cs</DependentUpon>
+      <SubType>Designer</SubType>
+>>>>>>> 819fb48c66fd4bd821537562bc3ebc757e7c21b2
     </EmbeddedResource>
     <EmbeddedResource Include="frmCreateTeamProject.ps.resx">
       <DependentUpon>frmCreateTeamProject.cs</DependentUpon>
@@ -110,18 +125,24 @@
     </EmbeddedResource>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a13d8b9... continuing combo to select process template
+=======
+>>>>>>> 819fb48c66fd4bd821537562bc3ebc757e7c21b2
     <EmbeddedResource Include="Resource.en-US.resx" />
     <EmbeddedResource Include="Resource.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resource.Designer.cs</LastGenOutput>
     </EmbeddedResource>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6cf346c... Localization completed
 =======
 >>>>>>> a13d8b9... continuing combo to select process template
+=======
+>>>>>>> 819fb48c66fd4bd821537562bc3ebc757e7c21b2
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -137,8 +158,11 @@
   </ItemGroup>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f9ae1e8... localization adjustments before first publish\
+=======
+>>>>>>> 819fb48c66fd4bd821537562bc3ebc757e7c21b2
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.5">
       <Visible>False</Visible>
@@ -157,10 +181,13 @@
     </BootstrapperPackage>
   </ItemGroup>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6cf346c... Localization completed
 =======
 >>>>>>> f9ae1e8... localization adjustments before first publish\
+=======
+>>>>>>> 819fb48c66fd4bd821537562bc3ebc757e7c21b2
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

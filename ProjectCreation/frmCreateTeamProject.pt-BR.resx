@@ -119,10 +119,14 @@
   </resheader>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 819fb48c66fd4bd821537562bc3ebc757e7c21b2
   <data name="txtCaminho.Text" xml:space="preserve">
     <value>C:\Users\Ricardo\Desktop\teamprojects.txt</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+<<<<<<< HEAD
 =======
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="btnCriar.Location" type="System.Drawing.Point, System.Drawing">
@@ -147,6 +151,8 @@
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
 >>>>>>> a13d8b9... continuing combo to select process template
+=======
+>>>>>>> 819fb48c66fd4bd821537562bc3ebc757e7c21b2
   <data name="lblTextFile.Size" type="System.Drawing.Size, System.Drawing">
     <value>107, 13</value>
   </data>
@@ -159,6 +165,7 @@
   <data name="lblLogPath.Text" xml:space="preserve">
     <value>Caminho do arquivo de log:</value>
   </data>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   <data name="txtLogPath.Text" xml:space="preserve">
@@ -204,4 +211,9 @@
     <value>C:\tfsprojectcreationlog</value>
   </data>
 >>>>>>> a13d8b9... continuing combo to select process template
+=======
+  <data name="txtLogPath.Text" xml:space="preserve">
+    <value>C:\tfsprojectcreationlog</value>
+  </data>
+>>>>>>> 819fb48c66fd4bd821537562bc3ebc757e7c21b2
 </root>
