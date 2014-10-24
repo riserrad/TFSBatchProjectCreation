@@ -9,11 +9,14 @@ using System.Threading;
 using System.Windows.Forms;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 using ProjectCreation.Properties;
 >>>>>>> 6cf346c... Localization completed
 =======
 >>>>>>> 2e16eb6... version 1.0.0.0
+=======
+>>>>>>> 819fb48c66fd4bd821537562bc3ebc757e7c21b2
 
 namespace ProjectCreation
 {
@@ -27,12 +30,16 @@ namespace ProjectCreation
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6bde0f1... adjusting process template label
+=======
+>>>>>>> 819fb48c66fd4bd821537562bc3ebc757e7c21b2
 #if DEBUG
             Thread.CurrentThread.CurrentUICulture = MessageBox.Show("Choose Yes for pt-BR or No for en-US", "Choose Language", MessageBoxButtons.YesNo) ==
                                                     DialogResult.Yes ? new CultureInfo("pt-BR") : new CultureInfo("en-US");
 #endif
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
             Thread.CurrentThread.CurrentUICulture = new CultureInfo("pt-BR");
@@ -46,11 +53,15 @@ namespace ProjectCreation
 =======
 
 >>>>>>> 6bde0f1... adjusting process template label
+=======
+
+>>>>>>> 819fb48c66fd4bd821537562bc3ebc757e7c21b2
             InitializeComponent();
 
             txtCaminho.Text = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.Desktop), "teamprojects.txt");
             txtLogPath.Text = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
 #if DEBUG
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -74,6 +85,12 @@ namespace ProjectCreation
 =======
             _resourceManager = new ResourceManager("ProjectCreation.Resource", this.GetType().Assembly);
 >>>>>>> c389bb2... stable resource files
+=======
+            txtCollectionUrl.Text = "http://vsalm:8080/tfs/FabrikamFiberCollection";
+#endif
+
+            _resourceManager = new ResourceManager("ProjectCreation.Resource", this.GetType().Assembly);
+>>>>>>> 819fb48c66fd4bd821537562bc3ebc757e7c21b2
         }
 
         private void btnCriar_click(object sender, EventArgs e)
@@ -86,6 +103,7 @@ namespace ProjectCreation
             }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
             
@@ -93,6 +111,9 @@ namespace ProjectCreation
 =======
 
 >>>>>>> 0bdf4ed... icons and texts
+=======
+
+>>>>>>> 819fb48c66fd4bd821537562bc3ebc757e7c21b2
             if (!File.Exists(txtCaminho.Text))
             {
                 MessageBox.Show(string.Format(_resourceManager.GetString("FrmCriarTeamProject_InvalidListPath"), txtCaminho.Text), _resourceManager.GetString("MessageBox_TituloGenericoErro"), MessageBoxButtons.OK, MessageBoxIcon.Error);
@@ -120,8 +141,11 @@ namespace ProjectCreation
             }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a13d8b9... continuing combo to select process template
+=======
+>>>>>>> 819fb48c66fd4bd821537562bc3ebc757e7c21b2
 
             if (string.IsNullOrWhiteSpace(cmbProcessTemplates.Text))
             {
@@ -133,6 +157,7 @@ namespace ProjectCreation
             }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 =======
@@ -142,6 +167,9 @@ namespace ProjectCreation
 =======
 
 >>>>>>> 0bdf4ed... icons and texts
+=======
+
+>>>>>>> 819fb48c66fd4bd821537562bc3ebc757e7c21b2
             string validacao;
 
             var lines = ReadFile(txtCaminho.Text, out validacao);
@@ -157,6 +185,7 @@ namespace ProjectCreation
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             var comando = string.Format(@"createteamproject /collection:{0} /teamproject:""[teamproject]"" /processtemplate:""{2}"" /sourcecontrol:New /log:""{1}"" /noportal", txtCollectionUrl.Text, txtLogPath.Text, cmbProcessTemplates.Text);
 =======
             var comando = string.Format(@"createteamproject /collection:{0} /teamproject:""[teamproject]"" /processtemplate:""MSF for Agile Software Development 2013.3"" /sourcecontrol:New /log:""{1}"" /noportal", txtCollectionUrl.Text, txtLogPath.Text);
@@ -164,6 +193,9 @@ namespace ProjectCreation
 =======
             var comando = string.Format(@"createteamproject /collection:{0} /teamproject:""[teamproject]"" /processtemplate:""{2}"" /sourcecontrol:New /log:""{1}"" /noportal", txtCollectionUrl.Text, txtLogPath.Text, cmbProcessTemplates.Text);
 >>>>>>> d546353... parametrizing process template
+=======
+            var comando = string.Format(@"createteamproject /collection:{0} /teamproject:""[teamproject]"" /processtemplate:""{2}"" /sourcecontrol:New /log:""{1}"" /noportal", txtCollectionUrl.Text, txtLogPath.Text, cmbProcessTemplates.Text);
+>>>>>>> 819fb48c66fd4bd821537562bc3ebc757e7c21b2
 
             foreach (var line in lines)
             {
@@ -197,12 +229,16 @@ namespace ProjectCreation
             var yesNo = false;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             var emptyLines = false;
 =======
 >>>>>>> 6cf346c... Localization completed
 =======
             var emptyLines = false;
 >>>>>>> 0bdf4ed... icons and texts
+=======
+            var emptyLines = false;
+>>>>>>> 819fb48c66fd4bd821537562bc3ebc757e7c21b2
 
             if (lines.Length == 0)
             {
@@ -215,8 +251,11 @@ namespace ProjectCreation
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 0bdf4ed... icons and texts
+=======
+>>>>>>> 819fb48c66fd4bd821537562bc3ebc757e7c21b2
                 if (string.IsNullOrWhiteSpace(line) && !emptyLines)
                 {
                     messages.Add(_resourceManager.GetString("FrmCriarTeamProject_EmptyLines"));
@@ -225,16 +264,22 @@ namespace ProjectCreation
                 }
                 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6cf346c... Localization completed
 =======
 >>>>>>> 0bdf4ed... icons and texts
+=======
+>>>>>>> 819fb48c66fd4bd821537562bc3ebc757e7c21b2
                 if (split.Length < 2 && !columns)
                 {
                     messages.Add(_resourceManager.GetString("FrmCriarTeamProject_YourFileContainsLessThan2Lines"));
                     columns = true;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 819fb48c66fd4bd821537562bc3ebc757e7c21b2
 
                     continue;
                 }
@@ -251,6 +296,7 @@ namespace ProjectCreation
                     messages.Add(_resourceManager.GetString("FrmCriarTeamProject_InvalidSharepointSiteFlag"));
                     yesNo = true;
                 }
+<<<<<<< HEAD
 =======
 =======
 
@@ -277,6 +323,8 @@ namespace ProjectCreation
 >>>>>>> 6cf346c... Localization completed
 =======
 >>>>>>> 0bdf4ed... icons and texts
+=======
+>>>>>>> 819fb48c66fd4bd821537562bc3ebc757e7c21b2
             }
 
             if (messages.Count > 0)
@@ -289,6 +337,7 @@ namespace ProjectCreation
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         private static void ExecutarFerramenta(string fileName, string arguments)
         {
 =======
@@ -298,12 +347,17 @@ namespace ProjectCreation
         private static void ExecutarFerramenta(string fileName, string arguments)
         {
 >>>>>>> 0bdf4ed... icons and texts
+=======
+        private static void ExecutarFerramenta(string fileName, string arguments)
+        {
+>>>>>>> 819fb48c66fd4bd821537562bc3ebc757e7c21b2
             var info = new ProcessStartInfo
             {
                 FileName = fileName,
                 Arguments = arguments,
                 WorkingDirectory = @"%programfiles(x86)%\Microsoft Team Foundation Server 2013 Power Tools"
             };
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 
@@ -313,6 +367,9 @@ namespace ProjectCreation
 =======
 
 >>>>>>> 0bdf4ed... icons and texts
+=======
+
+>>>>>>> 819fb48c66fd4bd821537562bc3ebc757e7c21b2
             var process = Process.Start(info);
 
             var result = string.Empty;
