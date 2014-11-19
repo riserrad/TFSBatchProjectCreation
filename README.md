@@ -15,5 +15,5 @@ The answer is simple: ALM administrators and consultants certainly have already 
 
 For source and work items migration, we already have the TFS Integration Platform. However, this tool does not cover the (re) creation of Team Projects. And this is where this app comes into play.
 
-*Requirements*
+**Requirements**
 * Team Foundation Server Power Tools
