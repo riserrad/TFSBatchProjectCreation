@@ -41,6 +41,7 @@
             this.lblProcessTemplate = new System.Windows.Forms.Label();
             this.lblBlogUrl = new System.Windows.Forms.LinkLabel();
             this.lblVisitMe = new System.Windows.Forms.Label();
+            this.btnSelecionarColecao = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnCriar
@@ -89,12 +90,12 @@
             // 
             this.cmbProcessTemplates.DisplayMember = "1";
             this.cmbProcessTemplates.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            resources.ApplyResources(this.cmbProcessTemplates, "cmbProcessTemplates");
             this.cmbProcessTemplates.FormattingEnabled = true;
             this.cmbProcessTemplates.Items.AddRange(new object[] {
             resources.GetString("cmbProcessTemplates.Items"),
             resources.GetString("cmbProcessTemplates.Items1"),
             resources.GetString("cmbProcessTemplates.Items2")});
-            resources.ApplyResources(this.cmbProcessTemplates, "cmbProcessTemplates");
             this.cmbProcessTemplates.Name = "cmbProcessTemplates";
             this.cmbProcessTemplates.ValueMember = "1";
             // 
@@ -114,10 +115,18 @@
             resources.ApplyResources(this.lblVisitMe, "lblVisitMe");
             this.lblVisitMe.Name = "lblVisitMe";
             // 
+            // btnSelecionarColecao
+            // 
+            resources.ApplyResources(this.btnSelecionarColecao, "btnSelecionarColecao");
+            this.btnSelecionarColecao.Name = "btnSelecionarColecao";
+            this.btnSelecionarColecao.UseVisualStyleBackColor = true;
+            this.btnSelecionarColecao.Click += new System.EventHandler(this.btnSelecionarColecao_Click);
+            // 
             // FrmCreateTeamProject
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.btnSelecionarColecao);
             this.Controls.Add(this.lblVisitMe);
             this.Controls.Add(this.lblBlogUrl);
             this.Controls.Add(this.lblProcessTemplate);
@@ -152,6 +161,7 @@
         private System.Windows.Forms.Label lblProcessTemplate;
         private System.Windows.Forms.LinkLabel lblBlogUrl;
         private System.Windows.Forms.Label lblVisitMe;
+        private System.Windows.Forms.Button btnSelecionarColecao;
     }
 }
 

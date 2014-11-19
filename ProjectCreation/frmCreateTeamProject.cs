@@ -7,6 +7,8 @@ using System.Linq;
 using System.Resources;
 using System.Threading;
 using System.Windows.Forms;
+using Microsoft.TeamFoundation.Client;
+using Microsoft.TeamFoundation.Server;
 
 namespace ProjectCreation
 {
@@ -25,9 +27,6 @@ namespace ProjectCreation
 
             txtCaminho.Text = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.Desktop), "teamprojects.txt");
             txtLogPath.Text = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
-#if DEBUG
-            txtCollectionUrl.Text = "http://vsalm:8080/tfs/FabrikamFiberCollection";
-#endif
 
             _resourceManager = new ResourceManager("ProjectCreation.Resource", this.GetType().Assembly);
         }
@@ -208,6 +207,45 @@ namespace ProjectCreation
             if (folderBrowsing.ShowDialog() == DialogResult.OK)
             {
                 txtLogPath.Text = folderBrowsing.SelectedPath;
+            }
+        }
+
+        private void btnSelecionarColecao_Click(object sender, EventArgs e)
+        {
+            var tpcPicker = new TeamProjectPicker(TeamProjectPickerMode.NoProject, false);
+
+            var dialogResult = tpcPicker.ShowDialog();
+
+            if (dialogResult == DialogResult.OK)
+            {
+                txtCollectionUrl.Text = tpcPicker.SelectedTeamProjectCollection.Uri.ToString();
+
+                this.AtualizarProcessTemplates();
+            }
+        }
+
+        private void AtualizarProcessTemplates()
+        {
+            var tfs = new TfsTeamProjectCollection(new Uri(txtCollectionUrl.Text));
+
+            var templates = tfs.GetService<IProcessTemplates>();
+
+            var headers = templates.TemplateHeaders();
+
+            cmbProcessTemplates.Items.Clear();
+
+            if (headers.Any())
+            {
+                cmbProcessTemplates.Enabled = true;
+                
+                foreach (var header in headers)
+                {
+                    cmbProcessTemplates.Items.Add(header.Name);
+                }
+            }
+            else
+            {
+                cmbProcessTemplates.Enabled = false;
             }
         }
     }
