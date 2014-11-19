@@ -7,7 +7,7 @@ The traditional method of creating a Team Project in TFS is through Visual Studi
 
 However, these alternatives can become onerous if the volume of Team Projects to be created is very large. 
 
-*In which scenario this app may be useful? *
+**In which scenario this app may be useful?**
 
 This app was born with the objective of minimizing the time and effort spent in the work described above. But which scenario would I need to create a batch of Team Projects? 
 
