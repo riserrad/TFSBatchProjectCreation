@@ -59,6 +59,10 @@
             this.txtCaminho.Click += new System.EventHandler(this.txtCaminho_Click);
             this.txtCaminho.TextChanged += new System.EventHandler(this.txtCaminho_TextChanged);
             // 
+            // folderBrowsing
+            // 
+            resources.ApplyResources(this.folderBrowsing, "folderBrowsing");
+            // 
             // txtCollectionUrl
             // 
             resources.ApplyResources(this.txtCollectionUrl, "txtCollectionUrl");
@@ -88,9 +92,9 @@
             // 
             // cmbProcessTemplates
             // 
+            resources.ApplyResources(this.cmbProcessTemplates, "cmbProcessTemplates");
             this.cmbProcessTemplates.DisplayMember = "1";
             this.cmbProcessTemplates.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            resources.ApplyResources(this.cmbProcessTemplates, "cmbProcessTemplates");
             this.cmbProcessTemplates.FormattingEnabled = true;
             this.cmbProcessTemplates.Items.AddRange(new object[] {
             resources.GetString("cmbProcessTemplates.Items"),
