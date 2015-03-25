@@ -1,4 +1,4 @@
-TFSBatchProjectCreation
+TFS Batch Project Creation
 =======================
 
 This application aims to support the creation of a large volume of Team Projects. 
