@@ -15,5 +15,23 @@ The answer is simple: ALM administrators and consultants certainly have already 
 
 For source and work items migration, we already have the TFS Integration Platform. However, this tool does not cover the (re) creation of Team Projects. And this is where this app comes into play.
 
+**How to**
+
+All you need to do is create a text file containing the Team Project names and if each one will use Sharepoint Portal or not. Like this:
+
+	Team Project 1|Yes
+	Team Project 2|No
+	Team Project 3|Yes
+	Team Project 4|Yes
+
+In this example, only the **Team Project 2** will **not** use the Sharepoint Portal feature.
+
+After that, in the app, you need to:
+
+* Select the Team Project Collection the Team Projects will be created;
+* Select the Text File that contains the Team Projects information;
+* Select the Log File location;
+* Select the Process Template you want to use in the Team Projects.
+
 **Requirements**
 * Team Foundation Server Power Tools
